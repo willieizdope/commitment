@@ -14,9 +14,10 @@ body{
   max-width: 960px;
   margin: 0px auto;
   /* align-items: center; */
-  grid-template-columns: 5fr 1fr 2fr 1fr 1fr 2fr;
+  /* grid-template-columns: fr 1fr 2fr 1fr 1fr 2fr; */
   /* grid-template-columns: repeat(6, 1fr); */
-  grid-template-rows: 3vh 2vh 3vh 4vh 5vh 3vh 2vh 3vh 2vh 6vh 9vh 5vh;
+  grid-template-columns: 40px 25px auto 25px 40px;
+  grid-template-rows: 3vh 2vh 3vh 4vh 5vh 3vh 2vh 3vh 2vh 6vh 3vh 5vh;
   /* grid-template-rows: 1fr 2fr 1fr 4fr 3fr 1fr 5fr 1fr 1fr 2fr 4fr 1fr; */
   /* grid-template-rows: repeat(12, 25vh); */
   grid-gap: 10px;
