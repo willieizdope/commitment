@@ -8,3 +8,6 @@ body{
 div{
   grid-column-end: span 1;
 }
+.colorBox1{
+  background-color: red;
+}
