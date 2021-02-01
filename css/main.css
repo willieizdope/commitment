@@ -10,32 +10,20 @@ div{
   grid-column-end: span 1;
 }
 .colorBox1{
-  background-color: rgba(255, 0, 0, .8);
+  background-color: rgb(255, 0, 0, .8);
 }
 .colorBox2{
-  background-color: rgba(237, 88, 12, .8);
+  background-color: rgba(250, 140, 0, 1);
 }
 .colorBox3{
-  background-color: rgba(247, 236, 12, .8);
+  background-color: rgb(247, 236, 12, .8);
 }
 .colorBox4{
-  background-color: rgba(79, 240, 12, .8);
+  background-color: rgb(79, 240, 12, .8);
 }
 .colorBox5{
-  background-color: rgba(1, 225, 240, .8);
+  background-color: rgb(1, 225, 240, .8);
 }
 .colorBox6{
-  background-color: rgba(237, 12, 180, .8);
-}
-.colorBox7{
-  background-color: rgba(224, 181, 12, .8);
-}
-.colorBox8{
-  background-color: rgba(224, 181, 12, .8);
-}
-.colorBox9{
-  background-color: rgba(224, 181, 12, .8);
-}
-.colorBox10{
-  background-color: rgba(224, 181, 12, .8);
+  background-color: rgb(237, 12, 180, .8);
 }
