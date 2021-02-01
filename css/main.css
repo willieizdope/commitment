@@ -24,6 +24,9 @@ body{
 }
 #colorBox1{
   background-color: rgb(255, 0, 0);
+  animation-name: leftmost;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 #colorBox2{
   background-color: rgba(250, 140, 0);
@@ -39,4 +42,12 @@ body{
 }
 #colorBox6{
   background-color: rgb(237, 12, 180);
+}
+@keyframes leftmost {
+  0% {background-color: rgb(255, 0, 0);}
+  20% {background-color: rgba(250, 140, 0);}
+  40% {background-color: rgb(247, 236, 12);}
+  60% {background-color: rgb(79, 240, 12);}
+  80% {background-color: rgb(1, 225, 240);}
+  100% {background-color: rgb(237, 12, 180);}
 }
