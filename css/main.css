@@ -14,8 +14,8 @@ body{
   max-width: 960px;
   margin: 0px auto;
   /* align-items: center; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 5fr 1fr 2fr 1fr 1fr 2fr;
+  /* grid-template-columns: repeat(6, 1fr); */
   /* grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh 25vh 25vh; */
   grid-template-rows: repeat(12, 25vh);
   grid-gap: 10px;
