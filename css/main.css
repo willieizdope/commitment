@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body{
-  background-image: linear-gradient(to right, rgba(93, 91, 235, .8), rgba(91, 235, 228, .8));
+  /* background-image: linear-gradient(to right, rgba(93, 91, 235, .8), rgba(91, 235, 228, .8)); */
+  background-color: black;
   margin-top: 10px;
 }
 .container{
@@ -55,6 +56,14 @@ body{
   83.33333% {background-color: rgb(237, 12, 180);}
 }
 @keyframes oneoverleft {
+  0% {background-color: rgba(250, 140, 0);}
+  16.66666% {background-color: rgb(247, 236, 12);}
+  33.33333% {background-color: rgb(79, 240, 12);}
+  49.99999% {background-color: rgb(1, 225, 240);}
+  66.66666% {background-color: rgb(237, 12, 180);}
+  83.33333% {background-color: rgb(255, 0, 0);}
+}
+@keyframes twooverleft {
   0% {background-color: rgba(250, 140, 0);}
   16.66666% {background-color: rgb(247, 236, 12);}
   33.33333% {background-color: rgb(79, 240, 12);}
