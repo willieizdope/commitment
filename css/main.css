@@ -4,10 +4,14 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 25vh 25vh 25vh 25vh;
   max-width: 960px;
+  grid-gap: 10px;
 }
 div{
   grid-column-end: span 1;
 }
 .colorBox1{
   background-color: rgba(255, 0, 0, .8);
+}
+.colorBox2{
+  background-color: rgba(224, 181, 12, .8);
 }
