@@ -1,30 +1,32 @@
 body{
   background-image: linear-gradient(to right, rgb(93, 91, 235), rgb(91, 235, 228));
+  justify-content: center;
+  max-width: 960px;
+}
+.container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 25vh 25vh 25vh 25vh;
-  justify-content: center;
-  max-width: 960px;
   grid-gap: 10px;
 }
-div{
+.colorBox{
   grid-column-end: span 1;
 }
-.colorBox1{
+#colorBox1{
   background-color: rgb(255, 0, 0);
 }
-.colorBox2{
+#colorBox2{
   background-color: rgba(250, 140, 0);
 }
-.colorBox3{
+#colorBox3{
   background-color: rgb(247, 236, 12);
 }
-.colorBox4{
+#colorBox4{
   background-color: rgb(79, 240, 12);
 }
-.colorBox5{
+#colorBox5{
   background-color: rgb(1, 225, 240);
 }
-.colorBox6{
+#colorBox6{
   background-color: rgb(237, 12, 180);
 }
