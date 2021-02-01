@@ -1,7 +1,7 @@
 body{
   background-image: linear-gradient(to right, rgb(93, 91, 235), rgb(91, 235, 228));
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 25vh 25vh 25vh 25vh;
   max-width: 960px;
 }
@@ -9,5 +9,5 @@ div{
   grid-column-end: span 1;
 }
 .colorBox1{
-  background-color: red;
+  background-color: rgba(255, 0, 0, .8);
 }
