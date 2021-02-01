@@ -10,20 +10,20 @@ div{
   grid-column-end: span 1;
 }
 .colorBox1{
-  background-color: rgb(255, 0, 0, .8);
+  background-color: rgb(255, 0, 0);
 }
 .colorBox2{
-  background-color: rgba(250, 140, 0, 1);
+  background-color: rgba(250, 140, 0);
 }
 .colorBox3{
-  background-color: rgb(247, 236, 12, .8);
+  background-color: rgb(247, 236, 12);
 }
 .colorBox4{
-  background-color: rgb(79, 240, 12, .8);
+  background-color: rgb(79, 240, 12);
 }
 .colorBox5{
-  background-color: rgb(1, 225, 240, .8);
+  background-color: rgb(1, 225, 240);
 }
 .colorBox6{
-  background-color: rgb(237, 12, 180, .8);
+  background-color: rgb(237, 12, 180);
 }
