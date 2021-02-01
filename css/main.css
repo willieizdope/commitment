@@ -45,9 +45,9 @@ body{
 }
 @keyframes leftmost {
   0% {background-color: rgb(255, 0, 0);}
-  20% {background-color: rgba(250, 140, 0);}
-  40% {background-color: rgb(247, 236, 12);}
-  60% {background-color: rgb(79, 240, 12);}
-  80% {background-color: rgb(1, 225, 240);}
-  100% {background-color: rgb(237, 12, 180);}
+  16.66666% {background-color: rgba(250, 140, 0);}
+  33.33333% {background-color: rgb(247, 236, 12);}
+  49.99999% {background-color: rgb(79, 240, 12);}
+  66.66666% {background-color: rgb(1, 225, 240);}
+  83.33333% {background-color: rgb(237, 12, 180);}
 }
