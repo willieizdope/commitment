@@ -30,6 +30,9 @@ body{
 }
 #colorBox2{
   background-color: rgba(250, 140, 0);
+  animation-name: oneoverleft;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 #colorBox3{
   background-color: rgb(247, 236, 12);
@@ -50,4 +53,12 @@ body{
   49.99999% {background-color: rgb(79, 240, 12);}
   66.66666% {background-color: rgb(1, 225, 240);}
   83.33333% {background-color: rgb(237, 12, 180);}
+}
+@keyframes oneoverleft {
+  0% {background-color: rgba(250, 140, 0);}
+  16.66666% {background-color: rgb(247, 236, 12);}
+  33.33333% {background-color: rgb(79, 240, 12);}
+  49.99999% {background-color: rgb(1, 225, 240);}
+  66.66666% {background-color: rgb(237, 12, 180);}
+  83.33333% {background-color: rgb(255, 0, 0);}
 }
