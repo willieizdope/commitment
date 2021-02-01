@@ -49,13 +49,15 @@ body{
 }
 #colorBox5{
   background-color: rgb(1, 225, 240);
-  background-color: rgb(79, 240, 12);
   animation-name: fouroverleft;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 #colorBox6{
   background-color: rgb(237, 12, 180);
+  animation-name: fiveoverleft;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 @keyframes leftmost {
   0% {background-color: rgb(255, 0, 0);}
@@ -96,4 +98,12 @@ body{
   49.99999% {background-color: rgba(250, 140, 0);}
   66.66666% {background-color: rgb(247, 236, 12);}
   83.33333% {background-color: rgb(79, 240, 12);}
+}
+@keyframes fiveoverleft {
+  0% {background-color: rgb(237, 12, 180);}
+  16.66666% {background-color: rgb(255, 0, 0);}
+  33.33333% {background-color: rgba(250, 140, 0);}
+  49.99999% {background-color: rgb(247, 236, 12);}
+  66.66666% {background-color: rgb(79, 240, 12);}
+  83.33333% {background-color: rgb(1, 225, 240);}
 }
