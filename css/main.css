@@ -5,6 +5,7 @@
 }
 body{
   background-image: linear-gradient(to right, rgb(93, 91, 235), rgb(91, 235, 228));
+  margin-top: 10px;
 }
 .container{
   display: grid;
