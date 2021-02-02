@@ -215,6 +215,7 @@ body{
   grid-column-end: span 1;
 }
 #bigboi{
+  opacity: 0;
   background-color: white;
   margin: 15px;
   animation: opacitize;
@@ -232,6 +233,8 @@ body{
   opacity: 0;
   background-color: white;
   margin: 15px;
+  animation: opacitize;
+  animation-duration: 45s;
 }
 #bigboi4{
   background-color: white;
