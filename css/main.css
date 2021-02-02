@@ -75,7 +75,7 @@ body{
 .container2{
   display: grid;
   width: 100%;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: 0px auto;
   /* align-items: center; */
   grid-template-columns: fr 1fr 1fr 1fr 1fr 1fr 1fr;
