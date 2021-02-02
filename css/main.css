@@ -116,8 +116,10 @@ body{
 }
 #secondColorBox5{
   background-color: rgb(1, 225, 240);
-  animation-name: fouroverleft;
-  animation-duration: 8s;
+  /* animation-name: fouroverleft;
+  animation-duration: 8s; */
+  animation-iteration-count: infinite;
+  animation: spin 3s, fouroverleft 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox6{
