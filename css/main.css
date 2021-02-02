@@ -237,6 +237,9 @@ body{
   animation-duration: 45s;
 }
 #bigboi4{
+  opacity: 0;
   background-color: white;
   margin: 15px;
+  animation: opacitize;
+  animation-duration: 60s;
 }
