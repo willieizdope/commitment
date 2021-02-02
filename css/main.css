@@ -95,7 +95,7 @@ body{
   animation-duration: 8s; */
   animation: spin 6s, leftmost 8s, scales 4s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 3s;
 }
 #secondColorBox2{
   background-color: rgba(250, 140, 0);
@@ -129,7 +129,7 @@ body{
   animation-iteration-count: infinite;
   animation: spin 6s, fouroverleft 8s, scales 4s;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 #secondColorBox6{
   background-color: rgb(237, 12, 180);
