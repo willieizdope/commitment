@@ -58,7 +58,7 @@ body{
 }
 @keyframes spin {
   100%{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
 @keyframes spin2 {
@@ -93,7 +93,7 @@ body{
   background-color: rgb(255, 0, 0);
   /* animation-name: leftmost;
   animation-duration: 8s; */
-  animation: spin 2s, leftmost 8s, scales 4s;
+  animation: spin 6s, leftmost 8s, scales 4s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
 }
@@ -110,7 +110,7 @@ body{
   /* animation-name: twooverleft;
   animation-duration: 8s; */
   animation-iteration-count: infinite;
-  animation: spin 2s, twooverleft 8s, scales 4s;
+  animation: spin 6s, twooverleft 8s, scales 4s;
   animation-iteration-count: infinite;
   animation-delay: 3s;
 }
@@ -127,7 +127,7 @@ body{
   /* animation-name: fouroverleft;
   animation-duration: 8s; */
   animation-iteration-count: infinite;
-  animation: spin 2s, fouroverleft 8s, scales 4s;
+  animation: spin 6s, fouroverleft 8s, scales 4s;
   animation-iteration-count: infinite;
   animation-delay: 5s;
 }
