@@ -66,11 +66,11 @@ body{
     transform: rotate(-180deg);
   }
 }
-/* @keyframes rotate {
+@keyframes scales {
     100%{
-      transform: scaleX(2) scaleY(2);
+      transform: scaleX(.5) scaleY(.5);
     }
-} */
+}
 
 .container2{
   display: grid;
@@ -93,7 +93,7 @@ body{
   background-color: rgb(255, 0, 0);
   /* animation-name: leftmost;
   animation-duration: 8s; */
-  animation: spin 3.90s, leftmost 8s;
+  animation: spin 3.90s, leftmost 8s, scales 4s;
   animation-iteration-count: infinite;
 }
 #secondColorBox2{
