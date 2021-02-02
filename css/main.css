@@ -229,6 +229,7 @@ body{
   animation: opacitize;
   animation-duration: 30s;
   /* animation-delay: 5s; */
+  animation-fill-mode: forwards;
 }
 #bigboi3{
   opacity: 0;
@@ -236,6 +237,7 @@ body{
   margin: 15px;
   animation: opacitize;
   animation-duration: 45s;
+  animation-fill-mode: forwards;
 }
 #bigboi4{
   opacity: 0;
@@ -243,4 +245,5 @@ body{
   margin: 15px;
   animation: opacitize;
   animation-duration: 60s;
+  animation-fill-mode: forwards;
 }
