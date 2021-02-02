@@ -71,7 +71,10 @@ body{
       transform: scaleX(.5) scaleY(.5);
     }
 }
-
+@keyframes opacitize {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
 .container2{
   display: grid;
   width: 100%;
