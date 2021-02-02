@@ -101,7 +101,7 @@ body{
   background-color: rgba(250, 140, 0);
   /* animation-name: oneoverleft;
   animation-duration: 8s; */
-  animation: spin2 2s, oneoverleft 8s;
+  animation: spin2 4s, oneoverleft 8s;
   animation-iteration-count: infinite;
   animation-delay: 2s;
 }
@@ -118,7 +118,7 @@ body{
   background-color: rgb(79, 240, 12);
   /* animation-name: threeoverleft;
   animation-duration: 8s; */
-  animation: spin2 2s, threeoverleft 8s;
+  animation: spin2 4s, threeoverleft 8s;
   animation-iteration-count: infinite;
   animation-delay: 4s;
 }
@@ -135,7 +135,7 @@ body{
   background-color: rgb(237, 12, 180);
   /* animation-name: fiveoverleft;
   animation-duration: 8s; */
-  animation: spin2 2s, fiveoverleft 8s;
+  animation: spin2 4s, fiveoverleft 8s;
   animation-iteration-count: infinite;
   animation-delay: 6s;
 }
