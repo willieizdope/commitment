@@ -112,8 +112,9 @@ body{
 }
 #secondColorBox4{
   background-color: rgb(79, 240, 12);
-  animation-name: threeoverleft;
-  animation-duration: 8s;
+  /* animation-name: threeoverleft;
+  animation-duration: 8s; */
+  animation: spin2 4s, threeoverleft 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox5{
