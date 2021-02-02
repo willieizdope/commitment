@@ -83,10 +83,11 @@ body{
   /* grid-template-rows: 1fr 2fr 1fr 4fr 3fr 1fr 5fr 1fr 1fr 2fr 4fr 1fr; */
   grid-template-rows: repeat(6, 10vh);
   grid-gap: 10px;
+  margin-top: 50px;
 }
 .secondColorBox{
   grid-column-end: span 1;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 #secondColorBox1{
   background-color: rgb(255, 0, 0);
