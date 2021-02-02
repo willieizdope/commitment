@@ -128,8 +128,9 @@ body{
 }
 #secondColorBox6{
   background-color: rgb(237, 12, 180);
-  animation-name: fiveoverleft;
-  animation-duration: 8s;
+  /* animation-name: fiveoverleft;
+  animation-duration: 8s; */
+  animation: spin2 4s, fiveoverleft 8s;
   animation-iteration-count: infinite;
 }
 
