@@ -75,15 +75,20 @@ body{
 }
 #secondColorBox1{
   background-color: rgb(255, 0, 0);
-  animation-name: leftmost;
-  animation-duration: 8s;
+  /* animation-name: leftmost;
+  animation-duration: 8s; */
   animation-iteration-count: infinite;
-  animation: rotate 1s, spin 3s;
+  animation: spin 3s, leftmost 8s infinite;
 }
 @keyframes spin {
   100%{
     transform: rotate(180deg);
   }
+}
+@keyframes rotate {
+    100%{
+      transform: scaleX(2) scaleY(2);
+    }
 }
 #secondColorBox2{
   background-color: rgba(250, 140, 0);
