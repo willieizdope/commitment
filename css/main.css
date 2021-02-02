@@ -77,8 +77,8 @@ body{
   background-color: rgb(255, 0, 0);
   /* animation-name: leftmost;
   animation-duration: 8s; */
+  animation: spin 3s, leftmost 8s;
   animation-iteration-count: infinite;
-  animation: spin 3s, leftmost 8s infinite;
 }
 @keyframes spin {
   100%{
