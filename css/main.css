@@ -93,14 +93,14 @@ body{
   background-color: rgb(255, 0, 0);
   /* animation-name: leftmost;
   animation-duration: 8s; */
-  animation: spin 4s, leftmost 8s;
+  animation: spin 3.7s, leftmost 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox2{
   background-color: rgba(250, 140, 0);
   /* animation-name: oneoverleft;
   animation-duration: 8s; */
-  animation: spin2 4s, oneoverleft 8s;
+  animation: spin2 3.8s, oneoverleft 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox3{
@@ -108,7 +108,7 @@ body{
   /* animation-name: twooverleft;
   animation-duration: 8s; */
   animation-iteration-count: infinite;
-  animation: spin 4s, twooverleft 8s;
+  animation: spin 3.9s, twooverleft 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox4{
@@ -123,14 +123,14 @@ body{
   /* animation-name: fouroverleft;
   animation-duration: 8s; */
   animation-iteration-count: infinite;
-  animation: spin 4s, fouroverleft 8s;
+  animation: spin 4.1s, fouroverleft 8s;
   animation-iteration-count: infinite;
 }
 #secondColorBox6{
   background-color: rgb(237, 12, 180);
   /* animation-name: fiveoverleft;
   animation-duration: 8s; */
-  animation: spin2 4s, fiveoverleft 8s;
+  animation: spin2 4.2s, fiveoverleft 8s;
   animation-iteration-count: infinite;
 }
 
