@@ -156,3 +156,9 @@ body{
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
+#secondColorBox6{
+  background-color: rgb(237, 12, 180);
+  animation-name: fiveoverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
