@@ -120,7 +120,7 @@ body{
   animation-duration: 8s; */
   animation: spin2 4s, threeoverleft 8s;
   animation-iteration-count: infinite;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 #secondColorBox5{
   background-color: rgb(1, 225, 240);
@@ -137,7 +137,7 @@ body{
   animation-duration: 8s; */
   animation: spin2 4s, fiveoverleft 8s;
   animation-iteration-count: infinite;
-  animation-delay: 6s;
+  animation-delay: 2s;
 }
 
 .container{
