@@ -217,6 +217,8 @@ body{
 #bigboi{
   background-color: white;
   margin: 15px;
+  animation: opacitize;
+  animation-duration: 20s;
 }
 #bigboi2{
   background-color: white;
