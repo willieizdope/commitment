@@ -200,7 +200,7 @@ body{
 .container3{
   display: grid;
   width: 100%;
-  margin: 0px auto;
+  margin: 25px auto;
   /* align-items: center; */
   /* grid-template-columns: fr 1fr 2fr 1fr 1fr 2fr; */
   /* grid-template-columns: repeat(6, 1fr); */
@@ -221,6 +221,7 @@ body{
   animation: opacitize;
   animation-duration: 15s;
   animation-fill-mode: forwards;
+  animation-delay: 30s;
 }
 #bigboi2{
   opacity: 0;
@@ -230,6 +231,7 @@ body{
   animation-duration: 30s;
   /* animation-delay: 5s; */
   animation-fill-mode: forwards;
+  animation-delay: 30s;
 }
 #bigboi3{
   opacity: 0;
@@ -238,6 +240,7 @@ body{
   animation: opacitize;
   animation-duration: 45s;
   animation-fill-mode: forwards;
+  animation-delay: 30s;
 }
 #bigboi4{
   opacity: 0;
@@ -246,4 +249,5 @@ body{
   animation: opacitize;
   animation-duration: 60s;
   animation-fill-mode: forwards;
+  animation-delay: 30s;
 }
