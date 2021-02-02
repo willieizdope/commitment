@@ -78,6 +78,12 @@ body{
   animation-name: leftmost;
   animation-duration: 8s;
   animation-iteration-count: infinite;
+  animation: rotate 1s, spin 3s;
+}
+@keyframes spin {
+  100%{
+    transform: rotate(180deg);
+  }
 }
 #secondColorBox2{
   background-color: rgba(250, 140, 0);
