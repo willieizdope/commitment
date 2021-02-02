@@ -223,6 +223,9 @@ body{
 #bigboi2{
   background-color: white;
   margin: 15px;
+  animation: opacitize;
+  animation-duration: 30s;
+  /* animation-delay: 5s; */
 }
 #bigboi3{
   background-color: white;
