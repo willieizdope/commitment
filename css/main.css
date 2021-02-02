@@ -8,59 +8,6 @@ body{
   background-color: black;
   margin-top: 10px;
 }
-.container{
-  display: grid;
-  width: 100%;
-  max-width: 960px;
-  margin: 0px auto;
-  /* align-items: center; */
-  /* grid-template-columns: fr 1fr 2fr 1fr 1fr 2fr; */
-  /* grid-template-columns: repeat(6, 1fr); */
-  grid-template-columns: 40px 25px auto 25px 40px;
-  grid-template-rows: 3vh 2vh 3vh 4vh 5vh 3vh 2vh 3vh 2vh 6vh 3vh 5vh 3vh 2vh 5vh;
-  /* grid-template-rows: 1fr 2fr 1fr 4fr 3fr 1fr 5fr 1fr 1fr 2fr 4fr 1fr; */
-  /* grid-template-rows: repeat(12, 25vh); */
-  grid-gap: 10px;
-}
-.colorBox{
-  grid-column-end: span 1;
-}
-#colorBox1{
-  background-color: rgb(255, 0, 0);
-  animation-name: leftmost;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-#colorBox2{
-  background-color: rgba(250, 140, 0);
-  animation-name: oneoverleft;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-#colorBox3{
-  background-color: rgb(247, 236, 12);
-  animation-name: twooverleft;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-#colorBox4{
-  background-color: rgb(79, 240, 12);
-  animation-name: threeoverleft;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-#colorBox5{
-  background-color: rgb(1, 225, 240);
-  animation-name: fouroverleft;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-#colorBox6{
-  background-color: rgb(237, 12, 180);
-  animation-name: fiveoverleft;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
 @keyframes leftmost {
   0% {background-color: rgb(255, 0, 0);}
   16.66666% {background-color: rgba(250, 140, 0);}
@@ -157,6 +104,60 @@ body{
   animation-iteration-count: infinite;
 }
 #secondColorBox6{
+  background-color: rgb(237, 12, 180);
+  animation-name: fiveoverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.container{
+  display: grid;
+  width: 100%;
+  max-width: 960px;
+  margin: 0px auto;
+  /* align-items: center; */
+  /* grid-template-columns: fr 1fr 2fr 1fr 1fr 2fr; */
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-template-columns: 40px 25px auto 25px 40px;
+  grid-template-rows: 3vh 2vh 3vh 4vh 5vh 3vh 2vh 3vh 2vh 6vh 3vh 5vh 3vh 2vh 5vh;
+  /* grid-template-rows: 1fr 2fr 1fr 4fr 3fr 1fr 5fr 1fr 1fr 2fr 4fr 1fr; */
+  /* grid-template-rows: repeat(12, 25vh); */
+  grid-gap: 10px;
+}
+.colorBox{
+  grid-column-end: span 1;
+}
+#colorBox1{
+  background-color: rgb(255, 0, 0);
+  animation-name: leftmost;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#colorBox2{
+  background-color: rgba(250, 140, 0);
+  animation-name: oneoverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#colorBox3{
+  background-color: rgb(247, 236, 12);
+  animation-name: twooverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#colorBox4{
+  background-color: rgb(79, 240, 12);
+  animation-name: threeoverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#colorBox5{
+  background-color: rgb(1, 225, 240);
+  animation-name: fouroverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#colorBox6{
   background-color: rgb(237, 12, 180);
   animation-name: fiveoverleft;
   animation-duration: 8s;
