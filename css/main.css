@@ -132,3 +132,9 @@ body{
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
+#secondColorBox2{
+  background-color: rgba(250, 140, 0);
+  animation-name: oneoverleft;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
