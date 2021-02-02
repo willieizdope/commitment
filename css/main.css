@@ -221,7 +221,7 @@ body{
   animation: opacitize;
   animation-duration: 15s;
   animation-fill-mode: forwards;
-  animation-delay: 30s;
+  animation-delay: 15s;
 }
 #bigboi2{
   opacity: 0;
@@ -231,7 +231,7 @@ body{
   animation-duration: 30s;
   /* animation-delay: 5s; */
   animation-fill-mode: forwards;
-  animation-delay: 30s;
+  animation-delay: 15s;
 }
 #bigboi3{
   opacity: 0;
@@ -240,7 +240,7 @@ body{
   animation: opacitize;
   animation-duration: 45s;
   animation-fill-mode: forwards;
-  animation-delay: 30s;
+  animation-delay: 15s;
 }
 #bigboi4{
   opacity: 0;
@@ -249,5 +249,5 @@ body{
   animation: opacitize;
   animation-duration: 60s;
   animation-fill-mode: forwards;
-  animation-delay: 30s;
+  animation-delay: 15s;
 }
